@@ -13,11 +13,15 @@
 <script>
     window.onload = () => {
         const randomNumber = Math.ceil(Math.random() * 10000);
-        if (randomNumber % 2 === 1) {
-            window.location.href = 'https://forms.gle/c5gMzUaHxquz9YrL9';
+        if (randomNumber % 3 === 2) {
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSchB6VhdZaJcnUCf1NME8ha0KSf4V2dFMc_LgdeW8pFOTNbuA/viewform?usp=sf_link';
             return;
         }
-        window.location.href = 'https://forms.gle/UU6hzxBXTjBBi4KQA';
+        if (randomNumber % 3 === 1) {
+            window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScMrx6gjpfcvj-dYF0wzH-yHMOysVb2HXIpz5TqsxpeTn_OVA/viewform?usp=sf_link';
+            return;
+        }
+        window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSerTWvB4Zl_0rPcP6DnSrRSdLb8d_VDpnGxpK-hV7-SGe0CMQ/viewform?usp=sf_link';
         return;
     }
 </script>
